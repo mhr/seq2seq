@@ -94,14 +94,9 @@ model.compile(loss='mse', optimizer='rmsprop')
 As you can see, in the attention model you need not specify the samples dimension as there are no static hidden states involved(But you have to if you are building a stateful Seq2seq model).
 Note:  You  can set the argument `bidirectional=False` if you wish not to use a bidirectional encoder.
 
-# Final Words
-
-That's all for now. Hope you love this library. For any questions you might have, create an issue and I will get in touch. You can also contribute to this project by reporting bugs, adding new examples, datasets or models.
-
 **Installation:**
 
 ```sudo pip install git+https://github.com/mhr/seq2seq.git```
-
 
 **Requirements:**
 
