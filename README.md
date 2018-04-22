@@ -95,8 +95,10 @@ As you can see, in the attention model you need not specify the samples dimensio
 Note:  You  can set the argument `bidirectional=False` if you wish not to use a bidirectional encoder.
 
 **Installation:**
-
+```sudo pip install git+https://github.com/mhr/recurrentshop.git```
 ```sudo pip install git+https://github.com/mhr/seq2seq.git```
+
+You have to install recurrentshop first before you install seq2seq. See https://github.com/farizrahman4u/seq2seq/issues/165#issuecomment-289192051.
 
 **Requirements:**
 
